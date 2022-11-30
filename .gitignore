@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+.vscode/
+.DS_Store/
+taskset*/
+output/
+profiles/
+build/
