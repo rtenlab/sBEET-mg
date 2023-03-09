@@ -32,8 +32,9 @@
 *.app
 
 .vscode/
-.DS_Store/
+.DS_Store
 taskset*/
 output/
 profiles/
 build/
+example
