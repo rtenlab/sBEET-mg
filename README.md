@@ -68,7 +68,7 @@ example/taskset_08022022/set_u08/003.csv,22:00:01.861,22:00:06.861,150,0,369.531
 ```
 From left to right, the column headers are "taskset name", "starting time", "end time", "total number of jobs", "number of missed jobs", "estimated energy consumption" respectively.
 
+The results of measured power consumption will also be saved in the same folder in the format of csv.
+
 ## Simulator
 The simulator mentioned in Section VI-B can be found in branch/simulator.
-
-The results of measured power consumption will also be saved in the same folder in the format of csv.
