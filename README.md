@@ -19,7 +19,7 @@ How to cite:
 @INPROCEEDINGS {rtss2022_sbeet-mg, author = {Y. Wang and M. Karimi and Y. Xiang and H. Kim}, booktitle = {2021 IEEE Real-Time Systems Symposium (RTSS)}, title = {Balancing Energy Efficiency and Real-Time Performance in GPU Scheduling}, year = {2021}}
 ```
 
-## How to Run
+## How to Run (on Hardware)
 Note that the profiles and the code are designed for the hardware combination of RTX3070 and T400.
 The code of power monitoring is designed for [Adafruit Feature nRF52](https://www.nordicsemi.com/products/nrf52832) and [Adafruit INA260 power sensor](https://www.ti.com/product/INA260).
 
@@ -67,5 +67,8 @@ example/taskset_08022022/set_u08/003.csv,22:00:01.861,22:00:06.861,150,0,369.531
 ...
 ```
 From left to right, the column headers are "taskset name", "starting time", "end time", "total number of jobs", "number of missed jobs", "estimated energy consumption" respectively.
+
+## Simulator
+The simulator mentioned in Section VI-B can be found in branch/simulator.
 
 The results of measured power consumption will also be saved in the same folder in the format of csv.
